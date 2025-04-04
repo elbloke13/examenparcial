@@ -4,12 +4,12 @@ import { Handlers, PageProps } from "$fresh/server.ts";
 type Phone = {
 
   number: number,
-  country: string;
+  country:  string;
 }
 
 type PhoneProps = {
 
-  phone: number;
+  phone: number; 
   country: string;
 }
 
